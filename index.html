@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+  <!-- Cambios en el HEADER - Reemplaza tu sección <header> con esto: -->
+<header>
+    <nav>
+        <h1 class="logo">L.U.X</h1>
+        
+        <!-- Menú hamburguesa -->
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <ul class="menuNavegacion" id="menuNavegacion">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#cosmeticos">Cosméticos</a></li>
+            <li><a href="#pases">Pases</a></li>
+            <li><a href="#personalizacion">Personalización</a></li>
+            <li><a href="#ayuda">Ayuda</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Cambios en la SECCIÓN HERO - Reemplaza tu <section id="inicio"> con esto: -->
+<section id="inicio" class="seccionHero">
+    <!-- Contenedor de imágenes hero -->
+    <div class="hero-images">
+        <img src="imagenes/luxlogo.png" alt="mini">
+        <img src="imagenes/Fondo y Logo.jpg" alt="FondoLogo">
+        <img src="imagenes/porologo.png" alt="poro">
+    </div>
+    
+    <article class="contenidoBienvenida">
+        <h2>¡Hola invocador!</h2>
+        <p>Te damos la bienvenida a la que será tu nueva tienda de confianza.</p>
+        <p>¿A veces sientes que compras más RP de lo que vas a gastar? ¿Sientes que los precios salen de rango?</p>
+        <p>Pues te tenemos la solución, aquí encontrarás Skins, Chromas, Pase de Batalla y mucho más, al precio justo.</p>
+        <aside class="notaPrecio">
+            <p><strong>Nota:</strong> Recuerda que los precios están en dólares debido al cambio de moneda, más información en Ayuda</p>
+        </aside>
+    </article>
+    
+    <!-- Banner promocional -->
+    <aside class="bannerPromocional">
+        <p>OFERTA SEMANAL - Descuentos especiales</p>
+    </aside>
+</section>
+
+        <!-- Sección de Cosméticos -->
+        <section id="cosmeticos" class="seccionCosmeticos">
+            <h2>COSMÉTICOS</h2>
+            <article class="categoriaCosmetica">
+                <h3>ASPECTOS</h3>
+                <section class="tiposAspecto">
+                    <article class="elementoAspecto" data-tipo="reales">
+                        <h4>REALES</h4>
+                        <img src="imagenes/Skin reales.jpg" alt="reales">
+                        <!-- Aquí irán las imágenes y productos -->
+                         
+                    </article>
+                    <article class="elementoAspecto" data-tipo="epica">
+                        <h4>ÉPICA</h4>
+                        <img src="imagenes/skins epicas.gif" alt="epica">
+                        <!-- Aquí irán las imágenes y productos -->
+                    </article>
+                    <article class="elementoAspecto" data-tipo="legendaria">
+                        <h4>LEGENDARIA</h4>
+                        <img src="imagenes/skins legendarias.gif" alt="legendaria">
+                        <!-- Aquí irán las imágenes y productos -->
+                    </article>
+                    <article class="elementoAspecto" data-tipo="definitiva">
+                        <h4>DEFINITIVA</h4>
+                        <img src="imagenes/skins Definitivas.gif" alt="">
+                        <!-- Aquí irán las imágenes y productos -->
+                    </article>
+                </section>
+            </article>
+        </section>
+
+        <!-- Sección de Pases -->
+        <section id="pases" class="seccionPases">
+            <h2>PASES</h2>
+            <section class="cuadriculaPases">
+                <article class="paseTemporada">
+                    <h3>PASE DE TEMPORADA</h3>
+                    <!-- Contenido del pase de temporada -->
+                </article>
+                <article class="ofertaSemanal">
+                    <h3>OFERTA SEMANAL</h3>
+                    <!-- Contenido de ofertas semanales -->
+                </article>
+            </section>
+        </section>
+
+        <!-- Sección de Personalización -->
+        <section id="personalizacion" class="seccionPersonalizacion">
+            <h2>PERSONALIZACIÓN</h2>
+            <section class="cuadriculaPersonalizacion">
+                <article class="categoriaPersonalizacion">
+                    <h3>ICONOS</h3>
+                    <!-- Iconos disponibles -->
+                </article>
+                <article class="categoriaPersonalizacion">
+                    <h3>CHROMAS</h3>
+                    <!-- Chromas disponibles -->
+                </article>
+                <article class="categoriaPersonalizacion">
+                    <h3>EMOTES</h3>
+                    <!-- Emotes disponibles -->
+                </article>
+                <article class="categoriaPersonalizacion">
+                    <h3>OTROS</h3>
+                    <!-- Otros elementos de personalización -->
+                </article>
+            </section>
+            
+            <!-- Sección de promociones para usuarios -->
+            <aside class="promocionesUsuario">
+                <h3>PROMOCIONES DE USUARIO</h3>
+                <p>En L.U.X, ofrecemos descuentos a partir de compras de más de 40 dólares, además de regalos mensuales</p>
+                <details class="detallesPromocion">
+                    <summary>Ver detalles de promociones</summary>
+                    <p>Las promociones solo se aplican para usuarios que tengan más de 5 compras en la página con anterioridad con precio superior a 50 dólares, se harán sorteos a través del grupo para los usuarios.</p>
+                </details>
+            </aside>
+        </section>
+
+        <!-- Sección de Atención al Cliente -->
+        <section id="atencionCliente" class="atencionCliente">
+            <h2>ATENCIÓN AL CLIENTE</h2>
+            <section class="cuadriculaServicio">
+                <article class="itemServicio">
+                    <h3>¿Cómo Funciona?</h3>
+                    <p>En nuestra página, cada compra se realiza a través de los siguientes pasos:</p>
+                    <p>Una vez que el usuario ha elegido los productos y se pone en contacto con nosotros, pasamos a pedirle el usuario, debido al cambio de política, luego de pasar 7 días, el usuario puede pagar el monto de costo, si así se siente más seguro. Se le envía todo lo correspondiente sin esperar más de 7 días.</p>
+                </article>
+                
+                <article class="itemServicio">
+                    <h3>¿Por qué en dólares?</h3>
+                    <p>Debido a que trabajamos para la mayoría de países latinos tiene problemas con sus monedas y cambios en esta, se realiza la conversión de su dinero a la moneda de elección (soles, pesos, bolívares, etc)</p>
+                </article>
+            </section>
+        </section>
+
+        <!-- Sección de Referencias y Acreditación -->
+        <section id="referencias" class="seccionReferencias">
+            <h2>REFERENCIA Y ACREDITACIÓN</h2>
+            <article class="contenidoReferencias">
+                <p>Aquí se colocan las capturas de las compras realizadas.</p>
+                <section class="testimoniosGrid">
+                    <!-- Aquí irán las capturas y testimonios -->
+                </section>
+            </article>
+        </section>
+    </main>
+
+    <!-- Boleta Virtual (se hará fija con CSS usando position: fixed) -->
+    <aside id="boletaVirtual" class="boletaVirtual">
+        <h3>Boleta Virtual</h3>
+        <section class="contenidoBoleta">
+            <ul class="itemsSeleccionados">
+                <!-- Items seleccionados aparecerán aquí -->
+            </ul>
+            <footer class="totalBoleta">
+                <p>Total: $<span id="montoTotal">0.00</span></p>
+                <button class="botonContacto">Contactar para Compra</button>
+            </footer>
+        </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <nav class="footerLinks">
+            <a href="#promociones">Promociones</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <section class="footerInfo">
+            <p>©Copyright 2025 L.U.X Todos los derechos reservados</p>
+            <nav class="footerPolicies">
+                <a href="#terminos">Términos y Condiciones</a> |
+                <a href="#privacidad">Políticas de Privacidad</a> |
+                <a href="#cookies">Políticas de Cookies</a>
+            </nav>
+        </section>
+    </footer>
+
+    <!-- Modal para información de productos -->
+    <dialog id="modalProducto" class="modal">
+        <article class="contenidoModal">
+            <header>
+                <button class="cerrarModal" aria-label="Cerrar modal">&times;</button>
+                <h3 id="nombreProductoModal"></h3>
+            </header>
+            <section class="detallesProducto">
+                <figure id="imagenProductoModal"></figure>
+                <p id="precioProductoModal"></p>
+                <p id="descripcionProductoModal"></p>
+            </section>
+            <footer>
+                <button id="agregarAlCarrito">Añadir a Boleta</button>
+            </footer>
+        </article>
+    </dialog>
+</body>
+</html>
